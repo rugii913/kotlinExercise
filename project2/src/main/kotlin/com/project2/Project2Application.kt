@@ -1,11 +1,11 @@
-package com.kotlinexercise
+package com.project2
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class KotlinExerciseApplication
+class Project2Application
 
 fun main(args: Array<String>) {
-    runApplication<KotlinExerciseApplication>(*args)
+    runApplication<Project2Application>(*args)
 }
