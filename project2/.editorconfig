@@ -1,0 +1,15 @@
+# ktlint config 파일 - 참고 https://velog.io/@alsdl0629/코프링-프로젝트에-ktlint-도입하기
+root = true # .editorconfig 파일이 위치한 디렉터리와 그 하위 디렉터리에서는 다른 editorconfig 파일을 찾지 않고 이 파일의 설정을 사용
+
+[*]
+charset = utf-8
+end_of_line = crlf # 강의자료에는 lf로 되어있으나 Windows에서 사용하는 crlf로 둠
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+no-wildcard-imports = enabled # https://velog.io/@kshired/Ktlint는-왜-wild-card-import를-권장하지-않을까
+
+[*.{kt,kts}]
+ij_kotlin_allow_trailing_comma = true
